@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+}
+
+.container .navbar {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 50%;
+}
+
+.container .navbar .navbar__card {
+  background-color: #cf7272;
+  width: 1200px;
+  height: 600px;
+}
+
+.container .navbar .navbar__card .navbar__menu #active {
+  color: #fff;
+}
+
+.container .navbar .navbar__card .navbar__menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 48px;
+  margin-left: 160px;
+  margin-top: 45px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.container .navbar .navbar__card .navbar__menu ul li {
+  -webkit-transition: all 1.2s ease;
+  transition: all 1.2s ease;
+}
+
+.container .navbar .navbar__card .navbar__menu ul li a {
+  color: #b9b2b2;
+  text-decoration: none;
+}
+
+.container .navbar .navbar__card .navbar__menu ul li a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: #fff;
+}
+
+.container .navbar .navbar__context {
+  color: #fff;
+  width: 490px;
+  margin: 10px 160px 0;
+}
+
+.container .navbar .navbar__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 95px;
+  margin-left: 165px;
+}
+
+.container .navbar .navbar__box .card {
+  width: 250px;
+  height: 250px;
+  background-color: #2e2b2b;
+}
+
+.container .navbar .navbar__box .card h3 {
+  color: #cf7272;
+  margin-top: 105px;
+  margin-left: 55px;
+}
+
+.container .navbar .navbar__box .card h1 {
+  font-weight: 500;
+  color: #fff;
+  margin-left: 55px;
+}
+
+.container .navbar .navbar__box .card1 {
+  width: 250px;
+  height: 250px;
+  background-color: #161515;
+}
+
+.container .navbar .navbar__box .card1 h1 {
+  color: #cf7272;
+  margin-top: 105px;
+  margin-left: 55px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container .navbar .navbar__box .card1 h3 {
+  color: #fff;
+  margin-left: 55px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.container .navbar .navbar__box .card2 {
+  width: 250px;
+  height: 250px;
+  background-color: #0a0a0a;
+}
+
+.container .navbar .navbar__box .card2 h1 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #cf7272;
+  margin-top: 105px;
+  margin-left: 55px;
+}
+
+.container .navbar .navbar__box .card2 h3 {
+  color: #fff;
+  margin-left: 55px;
+  font-size: 25px;
+}
+
+.container .navbar .navbar__start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #000;
+  width: 195px;
+  height: 45px;
+  font-size: 15px;
+  color: #fff;
+  background-color: black;
+  border-radius: 5px;
+  position: absolute;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  bottom: 85px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.container .navbar .navbar__swiper {
+  position: absolute;
+  -webkit-transform: translateY(-463%);
+          transform: translateY(-463%);
+  left: 198px;
+}
+
+.container .navbar .navbar__swiper .arrow {
+  width: 50px;
+  background-color: #b87d7d;
+}
+
+.container .navbar .navbar__swiper2 {
+  position: absolute;
+  -webkit-transform: translateY(-465%);
+          transform: translateY(-465%);
+  left: 998px;
+}
+
+.container .navbar .navbar__swiper2 .arrow1 {
+  width: 50px;
+  background-color: #b87d7d;
+}
+/*# sourceMappingURL=design.css.map */
