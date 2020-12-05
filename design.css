@@ -172,11 +172,20 @@
   -webkit-transform: translateY(-463%);
           transform: translateY(-463%);
   left: 198px;
+  -webkit-transition: all 1.2s ease;
+  transition: all 1.2s ease;
 }
 
 .container .navbar .navbar__swiper .arrow {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
   width: 50px;
   background-color: #b87d7d;
+}
+
+.container .navbar .navbar__swiper .arrow:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .container .navbar .navbar__swiper2 {
@@ -187,7 +196,18 @@
 }
 
 .container .navbar .navbar__swiper2 .arrow1 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
   width: 50px;
   background-color: #b87d7d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.container .navbar .navbar__swiper2 .arrow1:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transform: rotate(450deg);
+          transform: rotate(450deg);
 }
 /*# sourceMappingURL=design.css.map */

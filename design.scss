@@ -130,25 +130,45 @@ font-weight: 500;
     bottom:85px;
     text-transform:uppercase;
     font-weight: 300;
+    // transition:all 1.2s ease;
+//  .h4{
+//     &:hover{
+//     transform: scale(1.2s);
+// }
+// }
 }
 
 .navbar__swiper{
     position: absolute;
     transform: translateY(-463%);
     left:198px;
+    transition: all 1.2s ease;
     .arrow{
+    transform:rotate(270deg);
     width: 50px;
     background-color: rgb(184, 125, 125);
-    }
+    &:hover{
+    transform:scale(1.2);
+    }    
+}
     
 }
 .navbar__swiper2{
     position: absolute;
     transform: translateY(-465%);
     left:998px;
+    
+    
+    
     .arrow1{
+        transform:rotate(90deg);    
         width: 50px;
         background-color: rgb(184, 125, 125);
+        transition: all 0.5s ease ;
+        &:hover{
+            transform:scale(1.2);
+            transform:rotate(450deg); 
+        }
     }
 }
 }
